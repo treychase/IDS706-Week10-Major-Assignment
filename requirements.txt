@@ -16,3 +16,6 @@ seaborn==0.13.1
 
 # Utilities
 python-dateutil==2.8.2
+
+# Optional: PySpark for bonus (uncomment if needed)
+# pyspark==3.5.0
