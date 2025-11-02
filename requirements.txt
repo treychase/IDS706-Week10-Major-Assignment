@@ -3,7 +3,7 @@ apache-airflow==2.8.1
 apache-airflow-providers-postgres==5.10.0
 
 # Data processing
-pandas==2.1.4
+pandas==2.3.3
 numpy==1.26.3
 
 # Database
