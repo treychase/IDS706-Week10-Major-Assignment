@@ -28,8 +28,8 @@ dag = DAG(
 # TODO: Implement your functions here
 def ingest_dataset1(**context):
     """Ingest first dataset"""
-    df = pd.read_csv('/opt/airflow/data/dataset1.csv')
-    output_path = '/tmp/dataset1_raw.csv'
+    df = pd.read_csv('courses.csv')
+    output_path = '/tmp/courses_raw.csv'
     df.to_csv(output_path, index=False)
     context['ti'].xcom_push(key='dataset1_path', value=output_path)
     print(f"Dataset 1 ingested: {len(df)} rows")
